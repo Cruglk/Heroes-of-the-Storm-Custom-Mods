@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+
+	<CHero id="Nova" parent="LegacyVOHero">
+		<AttributeId value="Nova" />
+		<ProductId value="10119" />
+		<Role value="Damage" />
+		<RolesMultiClass value="Damage" />
+		<SelectScreenButtonImage value="Assets\Textures\storm_ui_ingame_heroselect_btn_nova.dds" />
+		<UniverseIcon value="Assets\Textures\UI_Glues_Store_GameIcon_SC2.dds" />
+		<VariationIcon value="Assets\Textures\ui_glues_swatch_blue_sky.dds" />
+		<ImageFacing value="Right" />
+		<SkinArray value="NovaUltimateWhiteTeal" />
+		<SkinArray value="NovaSpectre" />
+		<SkinArray value="NovaRollerDerby" />
+		<SkinArray value="NovaZon" />
+		<SkinArray value="NovaWidow" />
+		<SkinArray value="NovaMadAxe18" />
+		<DefaultMount value="HorseCommon" />
+		<VariationArray value="NovaGreen" />
+		<VariationArray value="NovaRed" />
+		<TalentTreeArray Talent="NovaMasteryLongshot" Tier="1" Column="1" />
+		<TalentTreeArray Talent="NovaCovertOps" Tier="1" Column="2" />
+		<TalentTreeArray Talent="NovaAdvancedCloaking" Tier="1" Column="3" />
+		<TalentTreeArray Talent="NovaRapidProjection" Tier="2" Column="1" />
+		<TalentTreeArray Talent="NovaHoloStability" Tier="2" Column="2" />
+		<TalentTreeArray Talent="NovaCovertMission" Tier="2" Column="3" />
+		<TalentTreeArray Talent="NovaHoloStabilityNew" Tier="2" Column="4" />
+		<TalentTreeArray Talent="NovaMasteryPerfectShotSnipe" Tier="3" Column="1" />
+		<TalentTreeArray Talent="NovaCombatStyleOneintheChamber" Tier="3" Column="2" />
+		<TalentTreeArray Talent="NovaCombatStyleAntiArmorShells" Tier="3" Column="3" />
+		<TalentTreeArray Talent="NovaHeroicAbilityTripleTap" Tier="4" Column="1" />
+		<TalentTreeArray Talent="NovaHeroicAbilityPrecisionStrike" Tier="4" Column="2" />
+		<TalentTreeArray Talent="NovaMasteryPsionicEfficiency" Tier="5" Column="1" />
+		<TalentTreeArray Talent="NovaMasteryDoubleTap" Tier="5" Column="2" />
+		<TalentTreeArray Talent="NovaIonicForceField" Tier="5" Column="3" />
+		<TalentTreeArray Talent="NovaMasteryExplosiveShot" Tier="6" Column="1" />
+		<TalentTreeArray Talent="NovaMasteryCripplingShot" Tier="6" Column="2" />
+		<TalentTreeArray Talent="NovaMasteryLethalDecoy" Tier="6" Column="3" />
+		<TalentTreeArray Talent="NovaMasteryFastReload" Tier="7" Column="1">
+			<PrerequisiteTalentArray value="NovaHeroicAbilityTripleTap" />
+		</TalentTreeArray>
+		<TalentTreeArray Talent="NovaMasteryPrecisionBarrage" Tier="7" Column="2">
+			<PrerequisiteTalentArray value="NovaHeroicAbilityPrecisionStrike" />
+		</TalentTreeArray>
+		<TalentTreeArray Talent="NovaApolloSuit" Tier="7" Column="3" />
+		<TalentTreeArray Talent="GenericTalentRewind" Tier="7" Column="4" />
+		<TalentAIBuildsArray ChanceToPick="16">
+			<TalentsArray value="NovaAdvancedCloaking" />
+			<TalentsArray value="NovaRapidProjection" />
+			<TalentsArray value="NovaCombatStyleAntiArmorShells" />
+			<TalentsArray value="NovaHeroicAbilityPrecisionStrike" />
+			<TalentsArray value="NovaMasteryDoubleTap" />
+			<TalentsArray value="NovaMasteryLethalDecoy" />
+			<TalentsArray value="GenericTalentRewind" />
+		</TalentAIBuildsArray>
+		<TalentAIBuildsArray ChanceToPick="16">
+			<TalentsArray value="NovaAdvancedCloaking" />
+			<TalentsArray value="NovaCovertMission" />
+			<TalentsArray value="NovaMasteryPerfectShotSnipe" />
+			<TalentsArray value="NovaHeroicAbilityTripleTap" />
+			<TalentsArray value="NovaMasteryPsionicEfficiency" />
+			<TalentsArray value="NovaMasteryExplosiveShot" />
+			<TalentsArray value="GenericTalentRewind" />
+		</TalentAIBuildsArray>
+		<TalentAIBuildsArray ChanceToPick="16">
+			<TalentsArray value="NovaAdvancedCloaking" />
+			<TalentsArray value="NovaRapidProjection" />
+			<TalentsArray value="NovaCombatStyleOneintheChamber" />
+			<TalentsArray value="NovaHeroicAbilityTripleTap" />
+			<TalentsArray value="NovaIonicForceField" />
+			<TalentsArray value="NovaMasteryLethalDecoy" />
+			<TalentsArray value="NovaApolloSuit" />
+		</TalentAIBuildsArray>
+		<TalentAIBuildsArray ChanceToPick="16">
+			<TalentsArray value="NovaCovertOps" />
+			<TalentsArray value="NovaHoloStability" />
+			<TalentsArray value="NovaCombatStyleOneintheChamber" />
+			<TalentsArray value="NovaHeroicAbilityPrecisionStrike" />
+			<TalentsArray value="NovaMasteryDoubleTap" />
+			<TalentsArray value="NovaMasteryCripplingShot" />
+			<TalentsArray value="GenericTalentRewind" />
+		</TalentAIBuildsArray>
+		<TalentAIBuildsArray AIOnly="1" ChanceToPick="16">
+			<TalentsArray value="NovaCovertOps" />
+			<TalentsArray value="NovaRapidProjection" />
+			<TalentsArray value="NovaCombatStyleOneintheChamber" />
+			<TalentsArray value="NovaHeroicAbilityTripleTap" />
+			<TalentsArray value="NovaIonicForceField" />
+			<TalentsArray value="NovaMasteryLethalDecoy" />
+			<TalentsArray value="NovaMasteryFastReload" />
+		</TalentAIBuildsArray>
+		<TalentAIBuildsArray AIOnly="1" ChanceToPick="16">
+			<TalentsArray value="NovaMasteryLongshot" />
+			<TalentsArray value="NovaHoloStability" />
+			<TalentsArray value="NovaCombatStyleAntiArmorShells" />
+			<TalentsArray value="NovaHeroicAbilityPrecisionStrike" />
+			<TalentsArray value="NovaMasteryDoubleTap" />
+			<TalentsArray value="NovaMasteryCripplingShot" />
+			<TalentsArray value="NovaMasteryPrecisionBarrage" />
+		</TalentAIBuildsArray>
+		<Difficulty value="Medium" />
+		<HeroTierAchievementId value="5216701565561171412" />
+		<Gender value="Female" />
+		<LevelScalingArray Ability="NovaSnipeStorm">
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="StormSnipeDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByAbilityPower value="1" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="SnipeExplosiveDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByAbilityPower value="1" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+		</LevelScalingArray>
+		<LevelScalingArray Ability="NovaPinningShot">
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="PinningShotDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByAbilityPower value="1" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+		</LevelScalingArray>
+		<LevelScalingArray Ability="NovaHoloDecoy">
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="HoloDecoyExplodeDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByAbilityPower value="1" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="HoloDecoyWeaponRelicDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="NovaHoloDecoyWeaponRelicAntiArmorShellsDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+		</LevelScalingArray>
+		<LevelScalingArray Ability="NovaPrecisionStrike">
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="PrecisionStrikeDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByAbilityPower value="1" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+		</LevelScalingArray>
+		<LevelScalingArray Ability="NovaTripleTap">
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="TripleTapMissileDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByAbilityPower value="1" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+		</LevelScalingArray>
+		<LevelScalingArray>
+			<Modifications>
+				<Catalog value="Unit" />
+				<Entry value="HeroNova" />
+				<Field value="LifeMax" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Unit" />
+				<Entry value="HeroNova" />
+				<Field value="LifeStart" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Unit" />
+				<Entry value="HeroNova" />
+				<Field value="LifeRegenRate" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="RangedAttackNovaDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Effect" />
+				<Entry value="NovaRangedAttackNovaAntiArmorShellsDamage" />
+				<Field value="Amount" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Unit" />
+				<Entry value="NovaHoloClone" />
+				<Field value="LifeMax" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Unit" />
+				<Entry value="NovaHoloClone" />
+				<Field value="LifeStart" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+			<Modifications>
+				<Catalog value="Unit" />
+				<Entry value="NovaHoloClone" />
+				<Field value="LifeRegenRate" />
+				<Value value="0.040000" />
+				<AffectedByOverdrive value="1" />
+			</Modifications>
+		</LevelScalingArray>
+		<VOArray index="Cheer" value="Nova_VOX_Cheer" />
+		<VOArray index="PingCapture" value="Nova_Ping_Capture" />
+		<VOArray index="PingCollect" value="Nova_Ping_Collect" />
+		<VOArray index="PingDefendStructure" value="Nova_Ping_DefendStructure" />
+		<VOArray index="PingDefendThing" value="Nova_Ping_DefendThing" />
+		<VOArray index="PingDestroyStructure" value="Nova_Ping_DestroyStructure" />
+		<VOArray index="PingDestroyThing" value="Nova_Ping_DestroyThing" />
+		<VOArray index="PingTransport" value="Nova_Ping_Transport" />
+		<VOArray index="PingTurnIn" value="Nova_Ping_TurnIn" />
+		<HeroAbilArray Abil="NovaSnipeStorm" Button="NovaSnipe">
+			<Flags index="ShowInHeroSelect" value="1" />
+			<Flags index="AffectedByCooldownReduction" value="1" />
+			<Flags index="AffectedByOverdrive" value="1" />
+		</HeroAbilArray>
+		<HeroAbilArray Abil="NovaPinningShot" Button="NovaPinningShot">
+			<Flags index="ShowInHeroSelect" value="1" />
+			<Flags index="UsesCharges" value="1" />
+			<Flags index="AffectedByCooldownReduction" value="1" />
+			<Flags index="AffectedByOverdrive" value="1" />
+		</HeroAbilArray>
+		<HeroAbilArray Abil="NovaHoloDecoy" Button="NovaHoloDecoy">
+			<Flags index="ShowInHeroSelect" value="1" />
+			<Flags index="AffectedByCooldownReduction" value="1" />
+		</HeroAbilArray>
+		<HeroAbilArray Abil="NovaTripleTap" Button="NovaTripleTap">
+			<Flags index="ShowInHeroSelect" value="1" />
+			<Flags index="AffectedByCooldownReduction" value="1" />
+			<Flags index="AffectedByOverdrive" value="1" />
+			<Flags index="Heroic" value="1" />
+		</HeroAbilArray>
+		<HeroAbilArray Abil="NovaPrecisionStrike" Button="NovaPrecisionStrike">
+			<Flags index="ShowInHeroSelect" value="1" />
+			<Flags index="UsesCharges" value="1" />
+			<Flags index="AffectedByCooldownReduction" value="1" />
+			<Flags index="AffectedByOverdrive" value="1" />
+			<Flags index="Heroic" value="1" />
+		</HeroAbilArray>
+		<HeroAbilArray Button="NovaPermanentCloak">
+			<Flags index="ShowInHeroSelect" value="1" />
+			<Flags index="Trait" value="1" />
+		</HeroAbilArray>
+		<HeroAbilArray Abil="NovaGhostProtocol" Button="NovaGhostProtocol">
+			<Flags index="ShowInHeroSelect" value="1" />
+			<Flags index="ShowInQuickCastSetting" value="1" />
+			<Flags index="AffectedByCooldownReduction" value="1" />
+		</HeroAbilArray>
+		<AllowedMountCategoryArray value="Ride" />
+		<AllowedMountCategoryArray value="Ridebeast" />
+		<AllowedMountCategoryArray value="Ridebike" />
+		<AllowedMountCategoryArray value="Ridesurf" />
+		<Flags index="GoodForModeA" value="1" />
+		<Flags index="GoodForModeB" value="1" />
+		<Ratings>
+			<Damage value="10" />
+			<Utility value="4" />
+			<Survivability value="2" />
+			<Complexity value="5" />
+		</Ratings>
+		<VoiceLineArray value="NovaBase_VoiceLine01" />
+		<VoiceLineArray value="NovaBase_VoiceLine02" />
+		<VoiceLineArray value="NovaBase_VoiceLine03" />
+		<VoiceLineArray value="NovaBase_VoiceLine04" />
+		<VoiceLineArray value="NovaBase_VoiceLine05" />
+		<HeroSpecificUIArray Location="Status" DescName="Nova/NovaFrame" />
+		<Rarity value="Epic" />
+		<ReleaseDate Month="3" Day="13" />
+		<ExpandedRole value="RangedAssassin" />
+	</CHero>
+
+	<CTalent id="NovaHoloStabilityNew">
+		<Face value="NovaHoloDecoyHoloStabilityTalentNew" />
+		<RankArray />
+		<AbilityModificationArray ModifyAbil="NovaSnipeStorm" TooltipAddendum="Talent/Nova/Snipe/ExplosiveRound">
+			<Modifications>
+				<Type value="FlatModification" />
+				<Catalog value="Effect" />
+				<Entry value="SnipeExplosiveShotSearchNew" />
+				<Field value="Chance" />
+				<Value value="1.000000" />
+			</Modifications>
+			<Modifications>
+				<Type value="CatalogReplacement" />
+				<Catalog value="Model" />
+				<Entry value="NovaSnipeImpact" />
+				<StringReplacement value="NovaSnipeExplosiveShotImpact" />
+			</Modifications>
+			<Modifications>
+				<Type value="CatalogReplacement" />
+				<Catalog value="Model" />
+				<Entry value="NovaSnipeCast" />
+				<StringReplacement value="NovaSnipeCastExplosiveShot" />
+			</Modifications>
+		</AbilityModificationArray>
+		<Abil value="NovaSnipeStorm" />
+	</CTalent>
+
+	<CEffectEnumArea id="SnipeExplosiveShotSearchNew">
+		<ValidatorArray value="NovaExplosiveArrowsHasTalent" />
+		<ValidatorArray value="NovaExplosiveArrowsTargetIsMinionOrMonster" />
+		<ImpactLocation Value="TargetUnit" />
+		<ImpactLocation Value="Target" />
+		<SearchFilters value="-;Player,Ally,Neutral,ImmuneToAOE,Missile,Item,Stasis,Dead,Hidden,Invulnerable" />
+		<ExcludeArray Value="Target" />
+		<SearchFlags index="DoActorSearch" value="1" />
+		<AreaArray Effect="NovaSnipeExplosiveShotImpactSetNew">
+			<Radius value="3" />
+		</AreaArray>
+		<RevealerParams HeightMap="Ground" Duration="0.5" ShapeExpansion="1">
+			<RevealFlags index="Unfog" value="1" />
+		</RevealerParams>
+		<IgnoreParentMarker value="1" />
+	</CEffectEnumArea>
+
+	<CValidatorPlayerTalent id="NovaExplosiveArrowsHasTalent">
+		<Find value="1" />
+		<Value value="NovaHoloStabilityNew" />
+	</CValidatorPlayerTalent>
+
+	<CValidatorCombine id="NovaExplosiveArrowsTargetIsMinionOrMonster">
+		<CombineArray value="NovaNeedsToBeAStandardValidatorTargetIsStandardLaneMinion" />
+		<CombineArray value="TargetIsAMonster" />
+	</CValidatorCombine>
+
+	<CValidatorCombine id="NovaNeedsToBeAStandardValidatorTargetIsStandardLaneMinion">
+		<Type value="And" />
+		<CombineArray value="TargetMinion" />
+		<CombineArray value="TargetNotMerc" />
+		<CombineArray value="TargetIsNotAMonsterMajor" />
+		<CombineArray value="TargetIsNotAMonster" />
+	</CValidatorCombine>
+
+	<CEffectSet id="SnipeImpactSet">
+		<EffectArray value="SnipeExplosiveShotSearchNew" />
+		<ValidatorArray value="noMarkers" />
+	</CEffectSet>
+
+	<CEffectSet id="NovaSnipeExplosiveShotImpactSetNew">
+		<EffectArray value="SnipeExplosiveDamageNew" />
+		<EffectArray value="NovaSnipeModifyCooldown" />
+	</CEffectSet>
+
+	<CEffectDamage id="SnipeExplosiveDamageNew" parent="StormSpell">
+		<Amount value="300" />
+		<ValidatorArray value="noMarkers" />
+		<SourceButtonFace value="NovaSnipeExplosiveRoundTalent" />
+		<MultiplicativeModifierArray index="PrecisionSniperBase" Accumulator="NovaPrecisionSniperAccumulator" />
+		<MultiplicativeModifierArray index="PrecisionSniperMax" Validator="NovaHas5StacksOfPrecisionSniper" Modifier="0.25" />
+		<DamageModifierSource Value="Creator" />
+	</CEffectDamage>
+
+	<CButton id="NovaHoloDecoyHoloStabilityTalentNew" parent="StormButtonParent">
+		<Icon value="Assets\Textures\storm_ui_icon_hanzo_stormbow.dds" />
+		<HotkeyAlias value="NovaSnipeStorm" />
+	</CButton>
+
+</Catalog>
