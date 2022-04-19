@@ -8,7 +8,7 @@ Custom settings for hero talents in Heroes of the Storm.
 - [Download](https://github.com/Cruglk/Heroes-of-the-Storm-Custom-Mods/blob/main/alarak_w_ally.xml).
 - [Video](https://youtu.be/Fw8Lvo5rJ1w).
 - Game Data: [Alarak](https://github.com/jamiephan/HeroesOfTheStorm_Gamedata/blob/9fdf3a6935be292cd063c20a7608be9661e8b790/mods/heromods/alarak.stormmod/base.stormdata/gamedata/alarakdata.xml).
-- 
+
 ## Kael'thas
 
 ### 10 level (Phoenix) slow movement from attack
