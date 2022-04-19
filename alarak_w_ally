@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+
+  <CEffectEnumArea id="AlarakTelekinesisSearch125">
+    <LaunchLocation Effect="AlarakTelekinesisCastSet" Value="VectorPoint" />
+    <SearchFilters value="-;" />
+    <AreaArray Effect="AlarakTelekinesisImpactSet125">
+      <RectangleWidth value="1.5" />
+      <RectangleHeight value="1.5" />
+    </AreaArray>
+    <RevealerParams Duration="0.75" ShapeExpansion="1">
+      <RevealFlags index="Unfog" value="1" />
+    </RevealerParams>
+    <SearchFlags index="DoActorSearch" value="1" />
+  </CEffectEnumArea>
+
+  <CEffectEnumArea id="AlarakTelekinesisSearch0625">
+    <LaunchLocation Effect="AlarakTelekinesisCastSet" Value="VectorPoint" />
+    <SearchFilters value="-;" />
+    <AreaArray Effect="AlarakTelekinesisImpactSet0625">
+      <RectangleWidth value="1.5" />
+      <RectangleHeight value="2.5" />
+    </AreaArray>
+    <RevealerParams Duration="0.75" ShapeExpansion="1">
+      <RevealFlags index="Unfog" value="1" />
+    </RevealerParams>
+    <SearchFlags index="DoActorSearch" value="1" />
+  </CEffectEnumArea>
+  <CEffectEnumArea id="AlarakTelekinesisSearch25">
+    <LaunchLocation Effect="AlarakTelekinesisCastSet" Value="VectorPoint" />
+    <SearchFilters value="-;" />
+    <AreaArray Effect="AlarakTelekinesisImpactSet25">
+      <RectangleWidth value="1.5" />
+      <RectangleHeight value="0.5" />
+    </AreaArray>
+    <RevealerParams Duration="0.75" ShapeExpansion="1">
+      <RevealFlags index="Unfog" value="1" />
+    </RevealerParams>
+    <SearchFlags index="DoActorSearch" value="1" />
+  </CEffectEnumArea>
+  <CEffectEnumArea id="AlarakTelekinesisSearchFinal">
+    <LaunchLocation Effect="AlarakTelekinesisCastSet" Value="VectorPoint" />
+    <SearchFilters value="-;" />
+    <AreaArray Effect="AlarakTelekinesisImpactSetFinal">
+      <RectangleWidth value="1.5" />
+      <RectangleHeight value="2.5" />
+    </AreaArray>
+    <RevealerParams Duration="0.75" ShapeExpansion="1">
+      <RevealFlags index="Unfog" value="1" />
+    </RevealerParams>
+    <SearchFlags index="DoActorSearch" value="1" />
+  </CEffectEnumArea>
+  <CEffectEnumArea id="AlarakTelekinesisSearch1875">
+    <LaunchLocation Effect="AlarakTelekinesisCastSet" Value="VectorPoint" />
+    <SearchFilters value="-;" />
+    <AreaArray Effect="AlarakTelekinesisImpactSet1875">
+      <RectangleWidth value="1.5" />
+      <RectangleHeight value="1.25" />
+    </AreaArray>
+    <RevealerParams Duration="0.75" ShapeExpansion="1">
+      <RevealFlags index="Unfog" value="1" />
+    </RevealerParams>
+    <SearchFlags index="DoActorSearch" value="1" />
+  </CEffectEnumArea>
+  <CEffectEnumArea id="AlarakTelekinesisSearchAppliedForceTalent">
+    <LaunchLocation Effect="AlarakTelekinesisCastSet" Value="VectorPoint" />
+    <SearchFilters value="-;" />
+    <AreaArray Effect="AlarakTelekinesisImpactSetAppliedForceTalent">
+      <RectangleWidth value="1.5" />
+      <RectangleHeight value="2.5" />
+    </AreaArray>
+    <RevealerParams Duration="0.75" ShapeExpansion="1">
+      <RevealFlags index="Unfog" value="1" />
+    </RevealerParams>
+    <SearchFlags index="DoActorSearch" value="1" />
+  </CEffectEnumArea>
+
+  <CEffectEnumArea id="AlarakTelekinesisFinalSearch">
+    <LaunchLocation Effect="AlarakTelekinesisCastSet" Value="VectorPoint" />
+    <SearchFilters value="-;" />
+    <AreaArray Effect="AlarakTelekinesisFinalSearchImpactSet">
+      <RectangleWidth value="1.5" />
+      <RectangleHeight value="2.25" />
+    </AreaArray>
+    <RevealerParams Duration="0.75" ShapeExpansion="1">
+      <RevealFlags index="Unfog" value="1" />
+    </RevealerParams>
+  </CEffectEnumArea>
+  
+  <CEffectEnumArea id="AlarakTelekinesisInitialSearch">
+    <LaunchLocation Effect="AlarakTelekinesisCastSet" Value="VectorPoint" />
+    <SearchFilters value="-;" />
+    <AreaArray Effect="AlarakTelekinesisInitialSearchImpactSet">
+      <RectangleWidth value="1.5" />
+      <RectangleHeight value="1.5" />
+    </AreaArray>
+    <RevealerParams Duration="0.75" ShapeExpansion="1">
+      <RevealFlags index="Unfog" value="1" />
+    </RevealerParams>
+  </CEffectEnumArea>
+
+</Catalog>
